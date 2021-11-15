@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+  text-align: center;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: top -45vh right 55vw, left 50vw top 50vh;
+  max-width: 1440px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+.main{
+  margin: 200px auto 20px auto;
+  width: 350px;
+  height: 400px;
+}
+
+hr{
+  opacity: 50%;
+}
+
+.back-ground{
+  height: 25%;
+  background-image: url('../images/bg-pattern-card.svg');
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+}
+
+.text-box{
+  height: 75%;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+}
+
+.victor{
+  border-radius: 50%;
+  border: solid 5px;
+  border-color: white;
+  position: relative;
+  bottom: 40px;
+}
+
+.profile-text{
+  position: relative;
+  bottom: 40px;
+}
+
+.twe{
+  opacity: 50%;
+}
+
+h2 {
+  margin: 10px 0 auto;
+}
+p{
+  opacity: 50%;
+  margin: 0 10px auto;
+}
+
+.follow{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 30px;
+}
+
+@media (max-width: 450px){
+  body{
+  background-position: top -10vh right 50vw, left 40vw top 60vh;
+}
+.main{
+margin: 30px auto 20px auto;
+}
+}
